@@ -1,0 +1,27 @@
+.nav{
+  padding-top: 1rem;
+}
+.example-icon{
+  margin-right: 10px;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+.text{
+  font-weight: bolder;
+  font-size: large;
+}
+.btn{
+  text-align: center;
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  font-size: large;
+}
+mat-grid-tile {
+  background: lightblue;
+  font-weight: bolder;
+  font-size: larger;
+}

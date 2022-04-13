@@ -1,0 +1,21 @@
+<p class="nav">
+  <mat-toolbar>
+    <button routerLink="/" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span class="text">BookView</span>
+    <span class="example-spacer"></span>
+    <mat-icon  class="fa-solid fa-book-open"></mat-icon>
+  </mat-toolbar>
+</p>
+
+<mat-grid-list cols="2" rowHeight="2:1">
+  <mat-grid-tile>
+    <div>
+      <span>{{name}}</span>
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile>Right Book Side</mat-grid-tile>
+</mat-grid-list>
+
+<button class="btn" routerLink="/" mat-raised-button color="primary" >Back</button>
